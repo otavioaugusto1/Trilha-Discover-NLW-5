@@ -102,6 +102,21 @@
 .question-wrapper .question-content p{
     margin-left: 1.6rem;
 }
+.question-wrapper .question-content .user{
+    background: var(--blue);
+    clip-path: circle();
+    padding: 1.4rem;
+
+
+}
+
+.question-wrapper.read{
+    background: var(--grey-medium);
+}
+.question-wrapper.read .question-content .user{
+    background: var(--grey-blue);
+}
+
 
 .question-wrapper .actions{
     display: flex;
@@ -117,5 +132,9 @@
 .question-wrapper .actions > a > img{
     margin-right: .8rem;
 
+
+}
+.question-wrapper .actions > a + a{
+    margin-left: 2.4rem;
 
 }
